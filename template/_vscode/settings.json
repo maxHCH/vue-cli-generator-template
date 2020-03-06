@@ -5,18 +5,18 @@
   "prettier.vueIndentScriptAndStyle": false,
   "editor.formatOnSave": false,
   "editor.codeActionsOnSave": {
-    "source.fixAll": true
+    "source.fixAll": true,
+    "source.fixAll.eslint": true
   },
   "javascript.format.enable": false,
-  "eslint.autoFixOnSave": true,
   "eslint.alwaysShowStatus": true,
   "eslint.options": {
     "extensions": [".html", ".js", ".vue"]
   },
   "eslint.validate": [
-    { "language": "html", "autoFix": true },
-    { "language": "vue", "autoFix": true },
-    { "language": "javascript", "autoFix": true }
+    "html",
+    "vue",
+    "javascript"
   ],
   "cSpell.words": ["Vuex"],
   "cSpell.ignorePaths": [
